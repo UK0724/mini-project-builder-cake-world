@@ -1,11 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
 *{
     margin:0;
     padding:0;
 }
+body
+{
+    overflow: hidden;
+}
+.header {
+    position: relative;
+    width: auto;
+    height: 100px;
+    color: white;
+    background: #654321
+}
 
-/* Fill your code*/
+.cakeimg{
+    position: relative;
+    background: black;
+    border-radius: 50%;
+    border: 2px solid #654321;
+    width: 160px;
+    height: 160px;
+    left: 580px;
+    top: 5px;
+    z-index: 1;
+}
 
+.cakeimg p{
+    position: relative;
+    color: white;
+    left: 40px;
+    top: -10px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main
+{
+    background: violet;
+    height: 540px;
+}
+.listtemplate1>img
+{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    height: 300px;
+}
+
+.listtemplate1 h4
+{
+    position: relative;
+    top: -50px;
+    left: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.items
+{
+    color: white;
+    position: relative;
+    top: -20px;
+    left: 150px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.billcalc>img
+{
+    position: relative;
+    left:1000px;
+    top:-600px;
+
+}
+
+.footer
+{
+    background: #654321;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer input
+{
+    position: relative;
+    top: 30px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15%;
+    color: white;
+    background-color: violet;
+}
+#buybtn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: green;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.cake{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left: 525px;
+    top: -50px;
+}
+
+.flavour{
+    left: 20px;
+    position: relative;
+    height: 40px;
+    border-radius: 15%;
+    z-index: 1;
+}
+.flavourprice{
+    position: relative;
+    color: white;
+    top: -850px;
+    left: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.bill{
+    position: relative;
+    left: 995px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+
+#layer1{
+    width: 245px;
+    visibility: hidden;
+}
+
+#layer2{
+    width: 200px;
+    left: 40px;
+    top: -80px;
+    visibility: hidden;
+}
+
+#layer3{
+    width: 160px;
+    left: 60px;
+    top: -160px;
+    visibility: hidden;
+}
+
+#layer4{
+    width: 120px;
+    left: 80px;
+    top: -240px;
+    visibility: hidden;
+}
+
+#layer5{
+    width: 80px;
+    left: 100px;
+    top: -320px;
+    visibility: hidden;
+}
+
+#candle
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: -400px;
+    left: 110px;
+    visibility: hidden;
+}
+
+#chocolateBill
+{
+    top: -830px;
+    left: 1050px;
+}
+
+#strawberryBill
+{
+    top: -830px;
+    left: 1050px;
+}
+#butterscotchBill
+{
+    top: -830px;
+    left: 1050px;
+}
+#vannilaBill
+{
+    top: -830px;
+    left: 1050px;
+}
+#redvelvetBill
+{
+    top: -830px;
+    left: 1050px;
+}
+#total{
+    top: -830px;
+    left: 1050px;
+}

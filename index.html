@@ -2,12 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake world</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <div class="cakeimg">
+            <img src="/assets/cake.png" alt="logo">
+            <p>Cake World</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="listtemplate1">
+            <img src="/assets/list_template.png" alt="">
+            <h4>PRICES</h4>
+            <p class="items">Chocolate ............. 300</p>
+            <p class="items">Strawberry ............ 100</p>
+            <p class="items">Butterscotch .......... 200</p>
+            <p class="items">Vannila ............... 250</p>
+            <p class="items">Redvelvet ............. 350</p>
+            </div>
+            <div class="cake">
+            <div class="flavour" id="layer1"></div>
+            <div class="flavour" id="layer2"></div>
+            <div class="flavour" id="layer3"></div>
+            <div class="flavour" id="layer4"></div>
+            <div class="flavour" id="layer5"></div>
+            <img src="/assets/candle.png" alt="" id="candle">
+            </div>
+            
+            <div class="billcalc">
+                <img src="/assets/list_template.png" alt="" id="listtemplate2">
+                <h4 class="flavourprice">BILL</h4>
+                <div class="bill" id="chocolateBill"></div>
+                <div class="bill" id="strawberryBill"></div>
+                <div class="bill" id="butterscotchBill"></div>
+                <div class="bill" id="vannilaBill"></div>
+                <div class="bill" id="redvelvetBill"></div>
+                <div class="bill" id="total"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="button" id="Chocolatebtn" value="Chocolate">
+            <input type="button" id="Strawbtn" value="Strawberry">
+            <input type="button" id="BSbtn" value="Butterscotch">
+            <input type="button" id="Vannilabtn" value="Vannila">
+            <input type="button" id="Redvbtn" value="Redvelvet">
+            <input type="button" id="buybtn" value="Buy">
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="/script.js"></script>
 </html>
